@@ -25,10 +25,13 @@ box-sizing: border-box;
   background-color: white;
   color:  #419ab5;
 }
- .d-block w-100  {
-height: 730px;
+ .d-block{
+height: 700px;
 width:100%;
-
+}
+#btn{
+  border: none;
+  border-color: black;
 }
 .carousel-caption{
   color: green;
@@ -157,6 +160,16 @@ h4::after {
 	color: black;
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
+.card-img-top{
+  height: 200px;
+  width: 200px;
+}
+.btn-outline-secondary{
+  height: 50px;
+}
+.btn-outline-success{
+  height: 50px;
+}
 .font-weight-light::after{
   /* This is the underline */
 	display: block;
@@ -189,7 +202,11 @@ color:white;
 text-transform: uppercase;
 }
 .social ul li a{
-  color: purple;
+  color: white;
+}
+.social{
+    background-color: #419ab5;
+    height: 40px;
 }
 .form-inline{
   color: black;
