@@ -1,6 +1,6 @@
 # maishakenya_
 # Maisha-Kenya
-
+![alttext](https://www.goodlife.co.ke/wp-content/uploads/2018/09/About_you.jpg)
 ## AUTHORS 
 * Wilfred Muema
 * Alisha Kavene
