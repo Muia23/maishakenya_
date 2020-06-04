@@ -1,0 +1,82 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  width: 100%;
+  position: sticky;
+  top:0;
+  display:flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  z-index: 1;
+  box-shadow: :2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.navbar ul li a {
+  color: black;
+  transition:color 0.3s;
+
+}
+
+.navbar li a:hover{
+  background-color: white;
+  color:  #419ab5;
+}
+.d-block{
+  height: 600px;
+}
+h4 {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: black;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+h4::after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 125px;
+	background: green;
+	margin: 5px auto 25px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
+.submit{
+  background-color: green;
+}
+tr td submit{
+  border: none;
+}
+.footer ul {
+	list-style: none;
+	text-align: center;
+}
+.footer ul li{
+	display: inline-block;
+	padding: 0 50px 0 50px;
+}
+.tm-col-footer ul {
+	list-style: none;
+}
+
+.tm-site-footer{
+  list-style: none;
+  background-color: green;
+  height: 150px;
+  margin-top: 20px;
+  text-decoration: none;
+color:white;
+text-transform: uppercase;
+}
+.social ul li a{
+  color: white;
+}
+.social{
+    background-color: #419ab5;
+    height: 40px;
+}
+.form-inline{
+  color: black;
+}
